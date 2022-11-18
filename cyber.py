@@ -1295,7 +1295,7 @@ def Subscraption():
 	key1=open('/data/data/com.termux/files/usr/bin/.mrahsan-cov', 'r').read()
 	clear()
 	print(logo)
-	r1=requests.get("https://https://github.com/gang3939/approval").text
+	r1=requests.get("https://github.com/gang3939/app/blob/main/Appro.txt").text
 	if key1 in r1:
 		os.system('clear')
 		print(logo)
